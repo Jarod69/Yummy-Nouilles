@@ -1,0 +1,39 @@
+
+.appBar__nav {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;    
+}
+
+
+.logo_header {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding-right: 2rem;
+}
+
+.appBar__nav-link {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.appBar__nav-link:hover,
+.appBar__nav-link.active {
+    text-decoration: underline var(--red-highlight);
+    text-underline-offset: 0.25;
+    text-decoration-thickness: 0.188;
+}
+
+.appBar__nav-l {
+    text-decoration: none;
+}
+
+
+a {
+    color:black
+}

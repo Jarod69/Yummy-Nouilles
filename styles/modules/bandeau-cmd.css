@@ -1,0 +1,32 @@
+.cta {
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: white;
+    text-decoration: none;
+    background-color: #000000;   
+    padding: 1rem 3rem 1rem 3rem;
+    max-width: 13.5rem;
+}
+
+.commandez {
+    width: 100%;
+    height: 13.5rem;
+    background-color: var(--red-highlight);
+    text-align: center;
+    font-family: var(--body-highlight-font);
+    font-style: normal;
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-highlight-line-height);
+    color: white;
+    margin-top: 4.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
