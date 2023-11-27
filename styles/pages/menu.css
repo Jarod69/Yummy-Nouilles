@@ -13,19 +13,18 @@ line-height: normal;
 /* tout le menu*/
 .menu {
     background-color: white;
-    width: 70rem;
-    height: 100rem;
     text-align: center;
     margin-top: 3rem;
     margin-left: 10rem;
     margin-right: 10rem;
+    margin-bottom: 4rem;
 }
 
 .logo-menu {
     width: 8rem;
     height: 8rem;
     padding-top: 4rem;
-    padding-bottom: 3rem;
+    
 }
 
 .section-menu span {
@@ -38,24 +37,38 @@ line-height: normal;
     align-items: center;
 }
 
-.div-menu p {
+.div-menu {
     padding-top: 2rem;
-    color: #000;
     text-align: center;
     font-family: var(--body-font);
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 4rem;
 }
 
-.div-menu strong {
-    color: #000;
-    text-align: center;
-    font-family: var(--body-font);
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+
+.menu-entree {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
 }
 
+.menu-plats {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.menu-dessert {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.menu-boissons {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
